@@ -1,0 +1,6 @@
+f1=open("example.txt","r+")
+content=f1.read()
+f1.seek(0)
+f1.write("New content")
+f1.close()
+print(content)
